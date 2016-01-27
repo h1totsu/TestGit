@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" 
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="true" />
+
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="edit" class="com.nix.romanenko.actions.AddEditAction">
+            <result name="success">/userPage.jsp</result>
+            <result name="input">/add_edit.jsp</result>
+        </action>
+        <action name="login" class="com.nix.romanenko.actions.LoginAction">
+            <result name="success">/userPage.jsp</result>
+            <result name="input">/home.jsp</result>
+        </action>
+        <action name="service" class="com.nix.romanenko.actions.ServiceAction">
+            <result name="success">/add_edit.jsp</result>
+        </action>
+        <action name="user" class="com.nix.romanenko.actions.UserPageAction">
+            <result name="success">/userPage.jsp</result>
+        </action>
+        <action name="delete" class="com.nix.romanenko.actions.DeleteAction">
+            <result name="success" type="redirectAction">
+                <param name="actionName">user</param>
+            </result>
+        </action>
+        <action name="registrate" class="com.nix.romanenko.actions.RegistrateAction">
+            <result name="success">/home.jsp</result>
+            <result name="input">/registration.jsp</result>
+        </action>
+        <action name="registration" class="com.nix.romanenko.actions.RegAction">
+            <result name="success">/registration.jsp</result>
+        </action>
+    </package>
+</struts>

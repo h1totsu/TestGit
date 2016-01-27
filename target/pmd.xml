@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.2" timestamp="2016-01-12T16:17:25.488">
+<file name="/home/NIX/romanenko/Documents/StrutsProject/src/main/java/com/nix/romanenko/dao/HibernateRoleDao.java">
+<violation beginline="11" endline="11" begincolumn="1" endcolumn="37" rule="ImportFromSamePackage" ruleset="Import Statements" package="com.nix.romanenko.dao" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.3.2/pmd-java/rules/java/imports.html#ImportFromSamePackage" priority="3">
+No need to import a type that lives in the same package
+</violation>
+</file>
+<file name="/home/NIX/romanenko/Documents/StrutsProject/src/main/java/com/nix/romanenko/dao/HibernateUserDao.java">
+<violation beginline="13" endline="13" begincolumn="1" endcolumn="37" rule="ImportFromSamePackage" ruleset="Import Statements" package="com.nix.romanenko.dao" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.3.2/pmd-java/rules/java/imports.html#ImportFromSamePackage" priority="3">
+No need to import a type that lives in the same package
+</violation>
+</file>
+</pmd>

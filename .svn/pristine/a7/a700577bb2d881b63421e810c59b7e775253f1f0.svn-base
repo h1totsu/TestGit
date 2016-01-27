@@ -1,0 +1,5 @@
+<dataset>
+    <role id="2" name="role2"/>
+    <user id="2" login="login2" password="pass2" email="email2" 
+        firstname="fname2" lastname="lname2" birthday="1970-01-01" roleid="1"/>
+</dataset>

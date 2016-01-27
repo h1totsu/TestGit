@@ -1,0 +1,128 @@
+.users-table {
+	margin: 20px 5%;
+    width: 90%;
+    border: 1px solid black;
+} 
+.user-table tr, th, td {
+	border: 1px solid black;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.user-table input[type=submit] {
+	padding: 4px;
+}
+
+#panel-right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+#panel-left {
+	margin-left: 5%;
+}
+
+#error {
+	margin-bottom: 5px;
+}
+
+.error {
+	color: red;
+}
+
+ .wwFormTable {
+	text-alifn:center;
+	border: 1px;
+	border-radius: 10px;
+	top: 10%;
+    left: 50%;
+    width: 400px;
+    position: absolute;
+    margin-left: -225px;
+    padding: 20px;
+}
+
+.wwFormTable input[type=text]{
+	width: 94%;
+	padding: 3px;
+	text-align: center;
+}
+
+.tdLabel {
+	align: center;
+	valign: center;
+	background-color: #BECEE8;
+}
+
+.wwFormTable input[type=password] {
+	text-align: center;
+	width: 94%;
+}
+
+.wwFormTable select {
+	width: 94%;
+	padding: 3px;
+}
+
+.wwFormTable tr,td {
+	text-align: center;
+    valign: center;
+	padding: 5px 10px;
+} 
+
+.login {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px 40px 10px 40px;
+    top: 10%;
+    left: 50%;
+    width: 300px;
+    position: absolute;
+    margin-left: -225px;
+}
+.login label {
+	padding: 4px;
+    width: 25%;
+}
+.action select {
+    width: 60%;
+    float: right;
+    padding-top: 8px;
+}
+
+.login button {
+	margin-top: 5px;
+    padding: 5px;
+    width: 140px;
+    margin-left: 130px;
+}
+
+.login input[type=text], input[type=password] {
+    width: 60%;
+    float: right;
+    padding: 4px;
+}
+
+.login input[type=submit] {
+    padding: 5px 10px 5px 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 120px;
+}
+
+.login .required {
+    color: red;
+}
+
+.cancel-form {
+	top: 60%;
+    left: 50%;
+    width: 400px;
+    position: absolute;
+    margin-left: -225px;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 15px;
+}
